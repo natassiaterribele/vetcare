@@ -68,7 +68,7 @@
     background: url("img/email.svg") no-repeat;
     background-position: right;
     font-family: var(--font-family-secundaria);
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: 300;
 }
 
@@ -160,6 +160,7 @@
     margin-bottom: 70px;
     margin: 0 8% 70px 8%;
     width: 84%;
+    color: var(--preta);
 }
 
 .botao__google:hover {
@@ -203,7 +204,7 @@
     .formulario__input-email::placeholder {
         background: url("img/email-tablet-desktop.svg") no-repeat;
         background-position: right;
-        font-size: 1.12em;
+        font-size: 1.15em;
     }
 
     .formulario__input-senha::placeholder {
