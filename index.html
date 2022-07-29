@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetCare</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="grid__desktop">
+
+        <div class="grid__esquerda">
+            <img src="img/imagem-desktop.svg" alt="Desenho de uma veterinária e um gato" class="imagem__desktop">
+        </div>
+
+        <div class="grid__direita">
+
+            <div class="flex__interno">
+
+                <div class="container">
+                    <img src="img/imagem-mobile.svg" alt="Desenho de uma veterinária e um gato" class="imagem__logo">
+                    <h1 class="formulario__titulo">Entrar</h1>
+                </div>
+
+                <form class="formulario">
+                    <div class="formulario__div">
+                        <label class="formulario__label">Endereço de email</label>
+                        <input type="email" placeholder="Example@rocket.mail"
+                            class="formulario__input formulario__input-email">
+                    </div>
+
+                    <div class="formulario__div">
+                        <label class="formulario__label">Senha</label>
+                        <input type="password" placeholder=" " class="formulario__input formulario__input-senha">
+                    </div>
+
+                    <a href="#" class="formulario__ancora formulario__ancora-entrar">Esqueceu sua senha?</a>
+
+                    <button type="submit" class="botao botao__entrar">Entrar</button>
+
+
+                    <div class="formulario__entrar">
+                        <span class="formulario__cadastrar">Você é novo aqui? </span>
+                        <a href="#" class="formulario__ancora">Cadastre-se</a>
+                    </div>
+                </form>
+
+                <div class="container__linha-ou">
+                    <div class="linha"></div>
+                    <span class="linha-ou">Ou</span>
+                    <div class="linha"></div>
+                </div>
+
+
+                <button type="button" class="botao botao__google">
+                    <img src="img/google.svg" alt="Logo google" class="logo__google">
+                    <img src="img/google-table-desktop.svg" alt="Logo google" class="logo__google-desktop">
+                    Entre com o Google
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

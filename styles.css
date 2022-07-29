@@ -1,0 +1,295 @@
+:root {
+    --verde: #7EBCC3;
+    --branca: #FFFFFF;
+    --preta: #000000;
+    --cinza: #939393;
+    --font-family-secundaria: 'Inter', sans-serif;
+    --font-family-principal: 'Open Sans', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin: 4rem auto 1.25rem auto;
+}
+
+.imagem__desktop {
+    display: none;
+}
+
+.imagem__logo {
+    margin-bottom: 2.5rem;
+    width: 90%;
+    max-width: 295px;
+}
+
+.formulario__titulo {
+    font-family: var(--font-family-principal);
+    font-size: 1.125em;
+    font-weight: 400;
+    color: var(--preta);
+    margin-bottom: 1.25rem;
+}
+
+.formulario {
+    width: 84%;
+    margin: 0 auto;
+}
+
+.formulario__div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__label {
+    margin-bottom: 0.625rem;
+    font-family: var(--font-family-secundaria);
+    font-size: 0.75em;
+    font-weight: 400;
+    color: var(--preta);
+}
+
+.formulario__input {
+    border-radius: 7px;
+    height: 1.875rem;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.formulario__input:hover {
+    border-color: var(--preta);
+}
+
+.formulario__input-email {
+    border: 2px solid var(--verde);
+    margin-bottom: 1.875rem;
+}
+
+.formulario__input-email::placeholder {
+    background: url("../pagina-de-login/img/email.svg") no-repeat;
+    background-position: right;
+    font-family: var(--font-family-secundaria);
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.formulario__input-senha {
+    border: 2px solid var(--cinza);
+}
+
+.formulario__input-senha::placeholder {
+    background: url("../pagina-de-login/img/chave-password.svg") no-repeat;
+    background-position: right;
+}
+
+.formulario__ancora {
+    text-decoration: none;
+    color: var(--verde);
+    font-family: var(--font-family-principal);
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.formulario__ancora:hover {
+    text-decoration: underline;
+}
+
+.formulario__ancora-entrar {
+    display: block;
+    text-align: right;
+    margin-top: 0.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.botao {
+    border-radius: 7px;
+    font-family: var(--font-family-principal);
+    font-size: 0.875em;
+    font-weight: 600;
+    height: 33px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.formulario__entrar {
+    text-align: center;
+}
+
+.botao__entrar {
+    background-color: var(--verde);
+    color: var(--branca);
+    border: 1px solid var(--verde);
+    margin-bottom: 0.625rem;
+    width: 100%;
+}
+
+.botao__entrar:hover {
+    opacity: 0.9;
+}
+
+
+.formulario__cadastrar {
+    font-family: var(--font-family-principal);
+    font-size: 0.75em;
+    font-weight: 600;
+    color: var(--preta);
+}
+
+.container__linha-ou {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 18px 0;
+}
+
+.linha-ou {
+    font-family: var(--font-family-principal);
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+.linha {
+    height: 1px;
+    background-color: var(--preta);
+    width: 44px;
+}
+
+.botao__google {
+    background-color: var(--branca);
+    border: 1px solid var(--preta);
+    margin-bottom: 70px;
+    margin: 0 8% 70px 8%;
+    width: 84%;
+}
+
+.botao__google:hover {
+    border: 2px solid var(--verde);
+}
+
+.logo__google {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.logo__google-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 728px) {
+    .imagem__logo {
+        max-width: 400px;
+    }
+
+    .formulario__titulo {
+        font-weight: 600;
+        font-size: 1.75em;
+        margin-bottom: 50px;
+    }
+
+    .formulario {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .formulario__label {
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+
+    .formulario__input {
+        height: 2.81rem;
+    }
+
+    .formulario__input-email::placeholder {
+        background: url("../pagina-de-login/img/email-tablet-desktop.svg") no-repeat;
+        background-position: right;
+        font-size: 1.12em;
+    }
+
+    .formulario__input-senha::placeholder {
+        background: url("../pagina-de-login/img/password-table-desktop.svg") no-repeat;
+        background-position: right;
+    }
+
+    .formulario__ancora {
+        font-size: 0.875em;
+    }
+
+    .botao {
+        font-size: 1.125em;
+        height: 2.81rem;
+    }
+
+    .botao__entrar {
+        margin-bottom: 1rem;
+    }
+
+    .formulario__cadastrar {
+        font-size: 0.875em;
+    }
+
+    .container__linha-ou {
+        padding: 28px 0;
+    }
+
+    .linha-ou {
+        font-size: 0.875em;
+        font-weight: 600;
+    }
+
+    .linha {
+        width: 66px;
+    }
+
+    .botao__google {
+        margin: 0 15% 70px 15%;
+        width: 70%;
+    }
+
+    .logo__google {
+        display: none;
+    }
+
+    .logo__google-desktop {
+        display: inline;
+        vertical-align: middle;
+        margin-right: 6px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem__logo {
+        display: none;
+    }
+
+    .grid__desktop {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .grid__esquerda {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba(185, 125, 141, 0.2);
+        width: 58%;
+        min-height: 100vh;
+    }
+
+    .grid__direita {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 42%;
+    }
+
+    .imagem__desktop {
+        display: block;
+        margin: 0 auto;
+        max-width: 700px;
+        width: 100%;
+    }
+}
+
