@@ -65,7 +65,7 @@
 }
 
 .formulario__input-email::placeholder {
-    background: url("../pagina-de-login/img/email.svg") no-repeat;
+    background: url("img/email.svg") no-repeat;
     background-position: right;
     font-family: var(--font-family-secundaria);
     font-size: 0.7em;
@@ -77,7 +77,7 @@
 }
 
 .formulario__input-senha::placeholder {
-    background: url("../pagina-de-login/img/chave-password.svg") no-repeat;
+    background: url("img/chave-password.svg") no-repeat;
     background-position: right;
 }
 
@@ -201,13 +201,13 @@
     }
 
     .formulario__input-email::placeholder {
-        background: url("../pagina-de-login/img/email-tablet-desktop.svg") no-repeat;
+        background: url("img/email-tablet-desktop.svg") no-repeat;
         background-position: right;
         font-size: 1.12em;
     }
 
     .formulario__input-senha::placeholder {
-        background: url("../pagina-de-login/img/password-table-desktop.svg") no-repeat;
+        background: url("img/password-table-desktop.svg") no-repeat;
         background-position: right;
     }
 
